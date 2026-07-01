@@ -1,8 +1,8 @@
+import { Link } from 'react-router-dom'
 import { HiCheck } from 'react-icons/hi'
 
 const included = [
   'All 9 modules, unlimited entries',
-  'AI coach — daily and weekly plans',
   'Progress analytics & heat maps',
   'CSV and PDF export',
   'Email + Google login'
@@ -14,7 +14,7 @@ export default function Pricing() {
       <div className="mx-auto max-w-md text-center">
         <p className="font-mono text-xs uppercase tracking-widest text-violet-400">pricing</p>
         <h2 className="mt-3 font-display text-3xl font-semibold tracking-tight text-mist-100">
-          Free, because tracking your growth shouldn't have a paywall.
+          Free, because tracking your growth should not have a paywall.
         </h2>
       </div>
 
@@ -33,12 +33,12 @@ export default function Pricing() {
             </li>
           ))}
         </ul>
-        
-          href="/register"
+        <Link
+          to="/register"
           className="mt-8 block w-full rounded-lg bg-violet-500 py-3 text-center text-sm font-semibold text-white transition-transform hover:scale-[1.02]"
         >
           Create your account
-        </a>
+        </Link>
       </div>
     </section>
   )

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function CTA() {
   return (
     <section id="get-started" className="relative overflow-hidden border-t border-white/[0.06] bg-aurora">
@@ -8,12 +10,12 @@ export default function CTA() {
         <p className="mx-auto mt-4 max-w-md text-mist-500">
           Set one skill, one habit, and today's goal. GrowthOS handles the rest of the ledger.
         </p>
-        
-          href="/register"
+        <Link
+          to="/register"
           className="mt-8 inline-block rounded-lg bg-mist-100 px-7 py-3 text-sm font-semibold text-ink-950 transition-transform hover:scale-[1.03]"
         >
           Start tracking — free
-        </a>
+        </Link>
       </div>
     </section>
   )

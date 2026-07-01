@@ -30,14 +30,14 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">
-            <a
-              href="#get-started"
+            
+              href="/register"
               className="rounded-lg bg-violet-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_0_0_1px_rgba(124,58,237,0.4),0_8px_24px_rgba(124,58,237,0.35)] transition-transform hover:scale-[1.03]"
             >
               Get started — it's free
             </a>
-            <a
-              href="#login"
+            
+              href="/login"
               className="rounded-lg border border-white/[0.1] px-6 py-3 text-sm font-semibold text-mist-100 transition-colors hover:bg-white/[0.04]"
             >
               Log in

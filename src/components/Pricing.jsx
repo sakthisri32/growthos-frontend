@@ -33,8 +33,8 @@ export default function Pricing() {
             </li>
           ))}
         </ul>
-        <a
-          href="#get-started"
+        
+          href="/register"
           className="mt-8 block w-full rounded-lg bg-violet-500 py-3 text-center text-sm font-semibold text-white transition-transform hover:scale-[1.02]"
         >
           Create your account

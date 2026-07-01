@@ -8,8 +8,8 @@ export default function CTA() {
         <p className="mx-auto mt-4 max-w-md text-mist-500">
           Set one skill, one habit, and today's goal. GrowthOS handles the rest of the ledger.
         </p>
-        <a
-          href="#"
+        
+          href="/register"
           className="mt-8 inline-block rounded-lg bg-mist-100 px-7 py-3 text-sm font-semibold text-ink-950 transition-transform hover:scale-[1.03]"
         >
           Start tracking — free

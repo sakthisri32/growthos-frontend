@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import LedgerCard from './LedgerCard.jsx'
 
 export default function Hero() {
@@ -30,18 +31,18 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">
-            
-              href="/register"
+            <Link
+              to="/register"
               className="rounded-lg bg-violet-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_0_0_1px_rgba(124,58,237,0.4),0_8px_24px_rgba(124,58,237,0.35)] transition-transform hover:scale-[1.03]"
             >
               Get started — it's free
-            </a>
-            
-              href="/login"
+            </Link>
+            <Link
+              to="/login"
               className="rounded-lg border border-white/[0.1] px-6 py-3 text-sm font-semibold text-mist-100 transition-colors hover:bg-white/[0.04]"
             >
               Log in
-            </a>
+            </Link>
           </div>
 
           <p className="mt-4 text-xs text-mist-700">No credit card. Cancel anytime you stop growing.</p>
